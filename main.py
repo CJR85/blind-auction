@@ -26,4 +26,4 @@ while not bidding_finished:
     bidding_finished = True
     find_highest_bid(bids)
   elif should_continue == 'yes':
-    clear()
+    print("\033[2J\033[1;1H")  # Clear the output between guesses
